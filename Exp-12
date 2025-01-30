@@ -1,0 +1,5 @@
+def find_largest(lst):
+    return max(lst)
+
+numbers = [12, 45, 7, 23, 56, 89, 34]
+print("Largest number is:", find_largest(numbers))
