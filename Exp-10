@@ -1,0 +1,8 @@
+def is_prime(n):
+    return n > 1 and all(n % i for i in range(2, int(n**0.5) + 1))
+
+num = int(input("Enter a number: "))
+if is_prime(num):
+    print(f"{num} is a prime number.")
+else:
+    print(f"{num} is not a prime number.")
