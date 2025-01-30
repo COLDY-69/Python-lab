@@ -1,3 +1,4 @@
+# Find the largest item from a given list.
 def find_largest(lst):
     return max(lst)
 
